@@ -1,3 +1,37 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 const valueSamsung = document.getElementById('value-samsung');
 const priceSamsung = document.getElementById('price-samsung');
 const plusSamsung = document.getElementById('plus-samsung');
@@ -162,4 +196,4 @@ sizeLargeRedmi.addEventListener('click', () => {
     sizeLargeRedmi.classList.add('active');
     sizeMediumRedmi.classList.remove('active');
     updatePriceRedmi();
-});
+});*/

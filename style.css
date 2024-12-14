@@ -13,22 +13,22 @@ section{
     position: relative;
 }
 #main{
-    background-color:   200153;
+    background-color:   #200153;
 }
 #about{
-    background-color: 0090FF;
+    background-color: #0090FF;
     }
 
 #skills{
-    background-color:792AFF;
+    background-color:#792AFF;
     }
 
 #works{
-    background-color:200153 ;
+    background-color:#200153 ;
     }
 
 #comments{
-    background-color: 200153;
+    background-color: #200153;
     }
 
 .main-block, .about-block, .skills-block, .works-block, .comments-block{
@@ -42,8 +42,7 @@ section{
     height: 100vh;
     }
 .main-content{
-    background-image:
-    url(img/form1.png);
+    background-image:url(image2.png);
     background-repeat: no-repeat;
     background-size: contain;
     width: 849px;
@@ -83,3 +82,43 @@ section{
 .button:hover{
     background: #a0d826;
     }
+.main-content{
+    z-index: 2;
+    }
+.img1{
+    background: url(image1.png);
+    background-repeat: no-repeat;
+    width: 405px;
+    height: 330px;
+    transform: rotate(-176deg);
+    position: absolute;
+    right: 20px;
+    z-index: 2;
+
+}
+@keyframes planet-move {
+    from{transform: translateY(0px);}
+    to{transform: translateY(70px);}
+}
+.moving-planet{
+    z-index: 2;
+    background: url(image3.png);
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 230px;
+    transform: rotate(-15deg);
+    bottom: 30px;
+    left: 30px;
+    animation-name: planet-move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.title{
+    padding-top: 100px;
+    text-align: center;
+    color: #FFF;
+    font-size: 80px;
+    text-shadow: 
+         5px 5px 0 #000000;
+ }
