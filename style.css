@@ -1,82 +1,85 @@
-body {
-    background-color: aliceblue;
-}
-.block-title{
-    font-weight: 600;
-    font-size: 30px;
-    color: #eb1515;
-    text-align: center;
-    margin: 20px 0;
-    
-}
-.header_subtitles{
-    text-align: center;
-    margin: 20px 0;
-    
-}
-.btn-size{
-    width: 60px;
-    height: 40px;
-    border-radius:10px ;
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-    background-color: rgb(248, 10, 208);
-    color: rgb(241, 244, 247);
-    font-size: 14px;
+
+*{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
 }
-.btn-size:hover{
-    background-color:rgb(73, 12, 70) ;
+section{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
 }
-.card{
-    border: 2px solid black;
-    width: 500px;
-    background-color: rgb(192, 238, 238);
+#main{
+    background-color:   200153;
+}
+#about{
+    background-color: 0090FF;
+    }
+
+#skills{
+    background-color:792AFF;
+    }
+
+#works{
+    background-color:200153 ;
+    }
+
+#comments{
+    background-color: 200153;
+    }
+
+.main-block, .about-block, .skills-block, .works-block, .comments-block{
     display: flex;
-    margin: 10px;
-    box-shadow: 7px 7px black
-    
-}
-.size{
-    display: flex;
-    justify-content: space-between;
-    width: 200;
+    justify-content: center;
     align-items: center;
+    min-height: 70vh;
 }
-.counter{
+.main-block{
+    flex-direction: column;
+    height: 100vh;
+    }
+.main-content{
+    background-image:
+    url(img/form1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 849px;
+    height: 223px;
+    padding-left: 30px;
+    }
+
+.main-title{
+    padding-top: 67px;
+    color: #2B2D35;
+    font-size: 80px;
+    }
+.main-subtitle{
+    color: #2B2D35;
+    font-size: 20px;
+    font-family: 'Comfortaa';
+    }
+.button{
+    width: 200px;
+    height: 60px;
+    border-radius: 100px;
+    border: 2px solid #000;
+    background: #BBFF2C;
     display: flex;
+    justify-content: center;
     align-items: center;
-}
-#value{
-    margin: 0px 10px;
-}
-.price{
-    margin-left: 30px;
-    font-size: 30px;
-
-}
-#buy{
-    width: 90%;
-    height: 40px;
-    background-color: blueviolet;
-    color: rgb(248, 248, 248);
-    font-size: 14px;
-    border-radius: 10px;
-}
-.active{
-    background-color: rgb(234, 146, 241);
-}
-.shop{
-    display: flex;
-    
-   
-    
-
-}
-.shop2{
-    display: flex;
-    
-    
-    
-   
-    
-
-}
+    box-shadow: 5px 5px 0 #000000;
+    margin-top: 20px;
+    }
+.button a {
+    font-size: 20px;
+    text-decoration: none;
+    }
+.button{
+    transition-duration: 0.3s;
+    }
+.button:hover{
+    background: #a0d826;
+    }
