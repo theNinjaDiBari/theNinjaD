@@ -157,13 +157,17 @@
      margin-left: 10px;
     }
 .block-title3{
-     color: #440909;
-     font-size: 80px;
-     margin-left: 10px;
-     margin-bottom: 50px;
-     margin-top: 150px ;
-    align-text:center;
-    align-items:center;
+        color: #1a0505;
+        font-size: 80px;
+
+        /* Center on screen */
+        display: flex;
+        justify-content: center; /* horizontal center */
+        align-items: center;     /* vertical center */
+        width: 100px;
+        height: 100vh;           /* full screen height */
+        text-align: center;
+        margin: 0;          
     }
 
 
