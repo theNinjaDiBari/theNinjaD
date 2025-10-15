@@ -22,7 +22,10 @@
     justify-content: space-between;
     width: auto;
     height: 300px;
-    background-image: url(1000_F_350962441_alGUHOoKdjHJuJo60VAyJSPht7tjgqI7.jpg);
+    background-image: url(37959-ravenna-01-introduzi.jpg);
+    background-size: cover;      
+    background-repeat: no-repeat; 
+    background-position: center;
 }
 .navigation_link{
     color: #10b5df;
